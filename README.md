@@ -1,4 +1,4 @@
-# hadoop-python-tutorial
+# hadoop-streaming
 Exercises and examples developed for the Hadoop with Python tutorial
 
 
@@ -17,37 +17,3 @@ Students will be surprised at how quickly they can get up and running with Hadoo
 * Writing MapReduce jobs with Apache Pig (a higher-level data flow language) in conjunction with Python user-defined functions
 
 In addition to these topics, we'll briefly cover the state of Python support for other Hadoop ecosystem projects, such as HBase, Hive, Spark, Storm, Flume, Accumulo, and a few others.
-
-
-
-CONTENTS OF THIS REPO
-
-HadoopWithPython-tutorial.pptx.pdf - These are the slides used for the class. They are also available on slideshare: http://www.slideshare.net/DonaldMiner/hadoop-with-python
-
-ipynb/ directory - These are ipython notebook demonstrations of how to use Snakebite, mrjob, and Pig/Python. To use them, start IPython Notebook in the directory:  $ cd ipynb/ ; ipython notebook
-
-pig_scripts/ directory - A pig script for finding the most highly paid individuals in Baltimore. It uses some Python UDFs.
-
-mrjob_scripts/ directory - A few examples of MapReduce jobs written in mrjob. avg.py, max.py, and seniority_v_pay.py are for the Baltimore data, while wordcount.py is a fancy word count that will work on any type of English text.
-
-
-
-
-
-DATA
-
-The Baltimore FY2014 employee salary data was used for a lot of the exercises here. You can get it here. Download it as a CSV. 
-https://data.baltimorecity.gov/City-Government/Baltimore-City-Employee-Salaries-FY2014/2j28-xzd7
-
-
-PREREQUISITES
-
-The following Python libraries were used (should be able to pip them down): mrjob, snakebite, nltk
-
-The latest versions of Pig and Hadoop 2.x should work with these exercises.
-
-
-CONTACT INFORMATION
-
-This tutorial was authored by Donald Miner, who can be reached at donaldpminer@gmail.com
-
